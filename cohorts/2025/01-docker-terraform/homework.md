@@ -22,7 +22,7 @@ Run docker with the `python:3.12.8` image in an interactive mode, use the entryp
 
 What's the version of `pip` in the image?
 
-- 24.3.1
+- 24.3.1 xxx
 - 24.2.1
 - 23.3.1
 - 23.2.1
@@ -30,7 +30,7 @@ What's the version of `pip` in the image?
 
 ## Question 2. Understanding Docker networking and docker-compose
 
-Given the following `docker-compose.yaml`, what is the `hostname` and `port` that **pgadmin** should use to connect to the postgres database?
+Given the following `docker-compose.yaml`, what is the `hostname`  and `port`  that **pgadmin** should use to connect to the postgres database?
 
 ```yaml
 services:
@@ -67,7 +67,7 @@ volumes:
 - postgres:5433
 - localhost:5432
 - db:5433
-- postgres:5432
+- postgres:5432    xxxxx
 - db:5432
 
 If there are more than one answers, select only one of them
@@ -174,7 +174,7 @@ Answers:
 - terraform import, terraform apply -y, terraform destroy
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-approve, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy
+- terraform init, terraform apply -auto-approve, terraform destroy   xxxxx
 - terraform import, terraform apply -y, terraform rm
 
 
